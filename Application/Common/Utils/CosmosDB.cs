@@ -16,7 +16,8 @@ namespace Application.Common.Utils
         {
             var cosmosClient = new CosmosClient(ConnectionString, Key);
             var database = cosmosClient.GetDatabase(DatabaseName);
-            var container = await database.CreateContainerIfNotExistsAsync(ContainerName, $"/{ContainerName}");
+            var container = await database.CreateContainerIfNotExistsAsync(ContainerName, $"/{DatabaseName}test");
+
 
             var document = new FileEntity();
 
