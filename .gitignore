@@ -15,3 +15,6 @@
 /Infrastructure/obj
 /Shared/bin
 /Shared/obj
+/Challenge/Properties/PublishProfiles
+/Challenge/Properties
+/CosmosDB/obj
